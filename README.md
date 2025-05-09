@@ -1,5 +1,5 @@
 # Traffic Monitoring in Bangladesh: Custom Object Detection with YOLO
-![](https://github.com/SawsanYusuf/Traffic-Monitoring-in-Bangladesh/blob/main/Traffic.jpg)
+![](https://github.com/SawsanYusuf/Traffic-Monitoring-in-Bangladesh/blob/main/Images/Traffic.jpg)
 
 ## Table of Contents
 
@@ -145,11 +145,15 @@ We analyze various metrics to evaluate the trained YOLO model.
 #### 5.1.1 Precision-Recall Curve <a name="precision-recall-curve"></a>
 
 The Precision-Recall (PR) curve visualizes the trade-off between precision and recall at different thresholds. The `pr_curve.png` file in the results directory displays this curve. We aim for a high area under the curve.
+![](https://github.com/SawsanYusuf/Traffic-Monitoring-in-Bangladesh/blob/main/Images/PR_curve.png)
 
 #### 5.1.2 Confusion Matrix <a name="confusion-matrix"></a>
 
 The confusion matrix helps identify classification errors. A good model has high values along the diagonal, indicating correct predictions. This matrix reveals which classes the model confuses, providing insights for further improvement (e.g., adding more training data for specific classes).
+![](https://github.com/SawsanYusuf/Traffic-Monitoring-in-Bangladesh/blob/main/Images/confusion.png)
 
 #### 5.1.3 Analyzing Training Loss <a name="analyzing-training-loss"></a>
 
 Monitoring training and validation loss is crucial for detecting overfitting. If validation loss increases while training loss decreases, the model is likely overfitting.
+![](https://github.com/SawsanYusuf/Traffic-Monitoring-in-Bangladesh/blob/main/Images/Losses.png)
+
